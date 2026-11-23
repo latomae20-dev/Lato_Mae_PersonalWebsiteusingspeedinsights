@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  body {
+  background-color: lightgray;
+}
+
+h1 {
+  color: navy;
+}
+.profile-info {
+  color: blue;
+  font-weight: bold;
+}
+</head>
+<body>
+  <h1>My Title</h1>
+  <p class="profile-info">Hello! Welcome to my personal website. I am Mae O. Lato, a Grade 11- Student who wants to become a teacher.Some text here.</p>
+
+  #main-header {
+text-align: center;
+}
+/* ID Selector 1 */
+#main-header {
+  text-align: center;
+  background-color: lightblue;
+}
+
+/* ID Selector 2 */
+#about-section {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+/* ID Selector 3 */
+#contact-section {
+  padding: 20px;
+  border: 1px solid black;
+}
+.btn {
+font-weight: bold;
+}
+.primary {
+color: white;
+}
+
+.nav-link {
+color: blue;
+font-weight: bold;
+}
+
+.form-label {
+font-weight: bold;
+}
+.form-input {
+color: blue;
+}
+
+
+body {
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+body {
+    line-height: 1.6;
+    text-align: center;
+}
+
+ul, ol {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
+
+.interests-list {
+    width: 150px;
+    margin: auto;
+    text-align: left;
+}
+
+.interests-list label {
+    display: block;
+    margin: 8px 0;
+}
+
+
+body {
+    line-height: 1.6;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.8;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+table {
+    margin: auto;
+}
+
+
+ul, ol {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
+
+
+body {
+    background-color: #B0E0E6;   
+    color: #333333;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: navy;
+}
+
+h3 {
+    color: navy;
+}
+
+p {
+    color: #333333;
+}
+
+nav {
+    background-color: #FFFFFF;
+}
+
+nav a {
+    color: #003B5C;
+}
+
+a {
+    color: #003B5C;
+}
+
+button {
+    background-color: #003B5C;
+    color: #FFFFFF;
+}
+
+body {
+    line-height: 1.6;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+    background: linear-gradient(to right, #B0E0E6, #EAF7FC);
+    color: #333333;
+}
+
+nav {
+    background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.profile-info {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+a:link {
+    color: #003B5C;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #356FA3;
+}
+
+a:active {
+    color: red;
+}
+
+a:link {
+    color: #003B5C;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #356FA3;
+}
+
+a:active {
+    color: red;
+}
+
+/* Z-INDEX */
+.label-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background-color: #356fa3;
+    color: white;
+
+    z-index: 2;
+    footer
+}
+
+/* POSITION */
+.profile-box {
+    position: relative;
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #356fa3;
+    background-color: #eaf7fc;
+    min-height: 280px;
+    box-sizing: border-box;
+}
+
+/* FLOAT - IMAGE STAYS ON THE LEFT */
+.photo-box {
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin: 5px 30px 10px 5px;
+}
+
+/* IMAGE */
+.photo-box img.photo-box {
+    float: left;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 5px 30px 10px 5px;
+    
+    z-index: 2;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+.photo-box img .photo-box {
+    float: left;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 5px 30px 10px 5px;
+    
+    z-index: 2;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.message-box {
+    margin-left: 280px;
+    padding: 25px;
+    background-color: #d9f1fa;
+    border: 2px solid #356fa3;
+    min-height: 150px;
+    box-sizing:border-box;
+}
+
+.favorites-page {
+    padding: 20px;
+}
+
+/* HEADER */
+
+.favorites-page header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* NAVIGATION */
+
+.favorites-nav {
+    text-align: center;
+    padding: 15px;
+}
+
+.favorites-nav a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #24476B;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* ===== CSS IMAGE GALLERY ===== */
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.image-gallery figure {
+    background-color: white;
+    padding: 12px;
+    border: 2px solid #B0E0E6;
+    border-radius: 12px;
+    margin: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.image-gallery figcaption {
+    color: #24527A;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ===== PSEUDO-CLASSES ===== */
+
+/* Hover */
+a:hover {
+    color: #0077B6;
+    text-decoration: underline;
+}
+
+.image-gallery figure:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery img:hover {
+    opacity: 0.8;
+}
+
+/* Active */
+a:active {
+    color: #E75480;
+}
+
+button:active {
+    background-color: #356FA3;
+    transform: scale(0.97);
+}
+
+/* Visited */
+a:visited {
+    color: #725A9B;
+}
+
+/* Focus */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #5DADE2;
+    border: 2px solid #356FA3;
+    background-color: #F0F8FF;
+}
+
+/* ===== PSEUDO-ELEMENTS ===== */
+
+/* Before */
+h2::before {
+    content: " ";
+    color: #D77BB5;
+}
+
+/* After */
+h2::after {
+    content: " ";
+    color: #D77BB5;
+}
+
+/* Decorative heading line */
+h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #D77BB5;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* ===== CONTACT FORM ===== */
+
+input,
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid #B0C4DE;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #356FA3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #24527A;
+}
+
+/* ===== RESPONSIVE GALLERY ===== */
+
+@media screen and (max-width: 600px) {
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Website */
+* {
+    box-sizing: border-box;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+</html>

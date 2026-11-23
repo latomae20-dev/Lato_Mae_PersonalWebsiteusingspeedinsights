@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a class="nav-link" href="index.html">Home</a> |
+        <a class="nav-link" href="about.html">About Me</a> |
+        <a class="nav-link" href="hobbies.html">Hobbies</a> |
+        <a class="nav-link" href="favorites.html">Favorites</a> |
+        <a class="nav-link" href="goals.html">Goals</a> |
+        <a class="nav-link" href="contact.html">Contact Me</a>
+    </nav> 
+    <hr>
+    <section id="contact-section">
+        <h1 class="section-title">Contact Me!</h1>
+
+        <p>You can use the contact form below to send me a message.</p>
+        <form id="contact-form">
+
+        <label class="form-label">Full Name:</label><br>
+        <input type="form-input" type="text" name="name" required><br><br>
+
+        <label class="form-label">Email Address:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label class="form-label">Gender:</label><br>
+        <input type="radio" name="gender" value="male" required> Male <input type="radio" name="gender" value="female" required> Female<br><br>
+       
+
+        <h3>Interests:</h3>
+
+    <label><input type="checkbox"> Sports</label>
+    <label><input type="checkbox"> Music</label>
+    <label><input type="checkbox"> Travel</label>
+    <label><input type="checkbox"> Reading</label>
+    <label><input type="checkbox"> Gaming</label>
+    <label><input type="checkbox"> Other</label>
+  <br>
+
+        <label class="form-label">Strand:</label><br>
+        <select name="strand" required>
+            <option value="">Select a strand</option>
+            <option value="ICT">ICT</option>
+            <option value="STEM">STEM</option>
+            <option value="Humanities">HUMSS</option>
+            <option value="Arts">ABM</option>
+        </select><br><br>
+
+        <label class="form-label">Purpose of Message:</label><br>
+    <select name="purpose">
+           <option value="">-- Select Purpose --</option>
+           <option value="question">Question</option>
+           <option value="suggestion">Suggestion</option>
+           <option value="feedback">Feedback</option>
+           <option value="greeting">Just Saying Hello</option>
+           <option value="other">Other</option>
+    </select>
+    <br><br>
+
+
+        <label class="form-label">Message:</label><br>
+        <textarea name="message" rows="5" required></textarea><br><br>
+
+        <button class="btn primary" type="submit">Send Message</button>
+        <input type="reset" value="Reset"><br><br>
+
+        <input type="checkbox" name="updates" value="yes"> I would like to receive updates.<br><br>
+
+     <label class="form-label">Preferred way to contact you:</label><br>
+     <input type="radio" name="contact" value="email"> Email
+     <input type="radio" name="contact" value="phone"> Phone <hr>
+
+    </label>
+        
+<h2>How would you rate my website?</h2>
+
+<label for="rating">Your Rating:</label>
+
+<input 
+    type="range" 
+    id="rating" 
+    min="0" 
+    max="100" 
+    value="50"
+    oninput="showRating(this.value)"
+
+
+<p>Your rating: <strong><span id="ratingValue">50</span>%</strong> ❤️</p>
+<hr>
+
+<b>Thank you for visiting my contact page. Take care!</b>
+
+<script>
+function showRating(value) {
+    document.getElementById("ratingValue").textContent = value;
+}
+</script>
+    
+    </form>
+
+    <!-- EmailJS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init({
+            publicKey: "w3trH3153WG_Zg2oo"
+        });
+
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            emailjs.sendForm(
+                "service_tjagd4o",
+                "template_r2ans5l",
+                this
+            )
+            .then(function() {
+                alert("Message sent successfully!");
+            })
+            .catch(function(error) {
+                alert("Failed to send message.");
+                console.log(error);
+            });
+
+        });
+    </script>
+
+</body>
+</html>
